@@ -208,7 +208,7 @@ a:hover{
 }
 /* 悬停按钮时的鼠标指针 */
 button:hover{
-    cursor: url('https://npm.elemecdn.com/kang-static/Hexo/img/pointer.cur'),auto; !important;
+    cursor: url('https://npm.elemecdn.com/kang-static/Hexo/img/pointer.cur'),auto !important;
 }
 /* 悬停列表标签时的鼠标指针 */
 i:hover{

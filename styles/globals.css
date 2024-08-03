@@ -216,4 +216,31 @@ i:hover{
 }
 .transition:hower{
     cursor: url('https://npm.elemecdn.com/kang-static/Hexo/img/pointer.cur'),auto !important;
+
+/* 滚动条 */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(200, 200, 200, 0.2); /* 浅灰色 */
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* 灰色 */
+    background-image: -webkit-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.4) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.4) 50%,
+      rgba(255, 255, 255, 0.4) 75%,
+      transparent 75%,
+      transparent
+    );
+    border-radius: 2em;
+}
+
 }

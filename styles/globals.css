@@ -239,7 +239,7 @@ i:hover{
       rgba(255, 255, 255, 0.4) 75%,!important;
       transparent 75%,!important;
       transparent
-    ) 
+    ) ;
     border-radius: 2em, !important;
 }
 

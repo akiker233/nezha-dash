@@ -264,6 +264,7 @@ body::before {
 /* 运行时间 */
 
 div#runtime {
+  margin-top: 1em;
   margin-left: 0;
   float: left;
 }
@@ -271,4 +272,8 @@ div#runtime {
 [data-theme="dark"] div#runtime {
   color: #28b4c8;
   box-shadow: 0 0 5px rgba(28, 69, 218, 0.71);
+}
+
+#footer-github {
+  margin-top: 1em;
 }

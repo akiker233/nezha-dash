@@ -272,8 +272,3 @@ div#runtime {
   color: #28b4c8;
   box-shadow: 0 0 5px rgba(28, 69, 218, 0.71);
 }
-
-div#footer-github {
-  margin-left: 0;
-  float: left;
-}

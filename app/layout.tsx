@@ -1,5 +1,5 @@
 import "@/styles/globals.css";
-import "https://fastly.jsdelivr.net/gh/mocchen/cssmeihua/js/yinghua.js";
+require('https://fastly.jsdelivr.net/gh/mocchen/cssmeihua/js/yinghua.js');
 
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";

@@ -265,6 +265,7 @@ body::before {
 
 div#runtime {
   margin: auto;
+  float: left;
 }
 
 [data-theme="dark"] div#runtime {

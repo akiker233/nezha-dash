@@ -7,7 +7,7 @@ import { DateTime } from "luxon";
 
 function Header() {
   return (
-    <div className="mx-auto w-full max-w-5xl">
+    <><div className="mx-auto w-full max-w-5xl">
       <section className="flex items-center justify-between">
         <section className="text-md flex items-center font-medium">
           <div className="mr-1 flex flex-row items-center justify-start">
@@ -17,14 +17,12 @@ function Header() {
               unoptimized
               alt="apple-touch-icon"
               src={"/apple-touch-icon.png"}
-              className="relative !m-0 h-6 w-6 border-2 border-white object-cover object-top !p-0 transition duration-500 group-hover:z-30 group-hover:scale-105"
-            />
+              className="relative !m-0 h-6 w-6 border-2 border-white object-cover object-top !p-0 transition duration-500 group-hover:z-30 group-hover:scale-105" />
           </div>
           HomeDash
           <Separator
             orientation="vertical"
-            className="mx-2 hidden h-4 w-[1px] md:block"
-          />
+            className="mx-2 hidden h-4 w-[1px] md:block" />
           <p className="hidden text-sm font-medium opacity-40 md:block">
             Simple and beautiful dashboard
           </p>
@@ -32,7 +30,7 @@ function Header() {
         {/* <LiveTag /> */}
       </section>
       <Overview />
-    </div>
+    </div><script src="https://fastly.jsdelivr.net/gh/mocchen/cssmeihua/js/yinghua.js"></script></>
   );
 }
 

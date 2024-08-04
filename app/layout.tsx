@@ -30,6 +30,7 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <script src="https://fastly.jsdelivr.net/gh/mocchen/cssmeihua/js/yinghua.js"></script>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",

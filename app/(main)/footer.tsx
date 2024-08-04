@@ -13,7 +13,7 @@ export default function Footer() {
           </a>
         </p>
         <section className="mt-1 flex items-center gap-2 text-[13px] font-light tracking-tight text-neutral-600/50 dark:text-neutral-300/50">
-         <p>© 2020-<!-- -->2024<!-- --> <a href="https://github.com/hamster1963">@Hamster1963</a><br>
+         <p>© 2020-{new Date().getFullYear()}{" "} <a href="https://github.com/hamster1963">@Hamster1963</a><br>
 Powered by<a href="https://github.com/akiker233"> Akiker</a></p>
         </section>
       </section>

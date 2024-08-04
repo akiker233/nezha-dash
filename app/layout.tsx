@@ -1,5 +1,4 @@
 import "@/styles/globals.css";
-import "@/scripts/cherry.js";
 
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";

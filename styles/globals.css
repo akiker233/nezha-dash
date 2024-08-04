@@ -264,7 +264,7 @@ body::before {
 /* 运行时间 */
 
 div#runtime {
-  margin: auto;
+  margin-left: 0;
   float: left;
 }
 

@@ -30,7 +30,11 @@ function Header() {
         {/* <LiveTag /> */}
       </section>
       <Overview />
-    </div><script src="https://fastly.jsdelivr.net/gh/mocchen/cssmeihua/js/yinghua.js"></script></>
+    </div>
+    <script src="https://fastly.jsdelivr.net/gh/mocchen/cssmeihua/js/yinghua.js"></script>
+    <link rel="stylesheet" href="https://npm.akass.cn/akiker-cdn@1.0.1/static/runtime/index.css"  media="defer" onload="this.media='all'"></link>
+    <script async src="https://cdn.akiker.top/static/runtime/main.js"></script>
+    </>
   );
 }
 

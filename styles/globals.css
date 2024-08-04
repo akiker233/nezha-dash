@@ -260,3 +260,14 @@ body::before {
 .bg-card {
     background-color: rgba(255, 255, 255, 0.6) !important;
 }
+
+/* 运行时间 */
+
+div#runtime {
+  margin: auto;
+}
+
+[data-theme="dark"] div#runtime {
+  color: #28b4c8;
+  box-shadow: 0 0 5px rgba(28, 69, 218, 0.71);
+}

@@ -216,6 +216,7 @@ i:hover{
 }
 .transition:hower{
     cursor: url('https://npm.elemecdn.com/kang-static/Hexo/img/pointer.cur'),auto !important;
+}
 
 /* 滚动条 */
 ::-webkit-scrollbar {
@@ -243,4 +244,14 @@ i:hover{
     border-radius: 2em, !important;
 }
 
+/* 背景图片 */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url(https://api.akiker.top/api/img) center/cover no-repeat;
 }

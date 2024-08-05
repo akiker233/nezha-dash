@@ -43,10 +43,10 @@ export default function ServerCardPopover({
       />
       <ServerCardPopoverCard
         title="Mem"
-        content={`${formatBytes(host.MemTotal)} / ${formatBytes(status.MemUsed)}`}
+        content={`${formatBytes(status.MemUsed)} / ${formatBytes(host.MemTotal)}`}
       />
       <ServerCardPopoverCard
-        title="STG"
+        title="Storage"
         content={`${formatBytes(status.DiskUsed)} / ${formatBytes(host.DiskTotal)}`}
       />
       <ServerCardPopoverCard

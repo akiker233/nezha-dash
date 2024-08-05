@@ -46,7 +46,7 @@ export default function ServerCard({
           <ServerUsageBar value={mem} />
         </div>
         <div className={"flex flex-col"}>
-          <p className="text-xs text-muted-foreground">STG</p>
+          <p className="text-xs text-muted-foreground">Storage</p>
           <div className="text-xs font-semibold">{stg.toFixed(2)}%</div>
           <ServerUsageBar value={stg} />
         </div>

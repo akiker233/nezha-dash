@@ -4,6 +4,8 @@ import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 import { DateTime } from "luxon";
+import { ModeToggle } from "@/components/ThemeSwitcher";
+
 
 function Header() {
   return (
@@ -27,7 +29,7 @@ function Header() {
             Simple and beautiful dashboard
           </p>
         </section>
-        {/* <LiveTag /> */}
+        <ModeToggle />
       </section>
       <Overview />
     </div>
